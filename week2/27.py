@@ -8,8 +8,6 @@ ops = list(map(int, input().split()))
 
 ans = [-sys.maxsize, sys.maxsize]
 
-def 
-
 def backtracking(depth, val):
     global ans
     if depth == N - 1:
@@ -34,4 +32,5 @@ def backtracking(depth, val):
             ops[i] += 1
 
 backtracking(0, A[0])
-print(ans)
+print(ans[0])
+print(ans[1])
